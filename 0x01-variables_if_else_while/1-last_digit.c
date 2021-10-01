@@ -1,6 +1,5 @@
 /*
  * File: 1-last_digit.c
- * Auth:  eya zidi
  */
 
 #include <stdlib.h>
