@@ -1,6 +1,5 @@
 /*
  * File: 2-print_alphabet.c
- * Auth: EyaZidi19
  */
 
 #include <stdio.h>
