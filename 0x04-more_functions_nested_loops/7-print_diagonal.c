@@ -1,18 +1,24 @@
 #include "main.h"
 
 /**
- * print_most_numbers - printsc numbersc between  0  to  9
- * (neither  2  nor  4).
- * Return: no  return.
- */
-void print_most_numbers(void)
-{
-	int ch;
+* Draw a  diagonal  line  on  the terminal
+* Diagonal  should  end  with  a \n
+*/
 
-	for (ch = 48; ch < 58; ch++)
+void print_diagonal(int n);
+
+{
+	int i, j;
+
+	for (i = 0; i < n; i++)
 	{
-		if (ch != 50 && ch != 52)
-			_putchar(ch);
+		for (j = 0; j < i; j++)
+		{
+			_putchar(' ');
+		}
+		_putchar(92);
+		if (i < (n - 1))
+			_putchar('\n');
 	}
 	_putchar('\n');
 }
