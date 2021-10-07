@@ -1,19 +1,13 @@
 #include "main.h"
-
 /**
-* Draws a straight line in the terminal.
-* Line should end with a new line
-* If n is 0 or less, the function should only print \n
+* print_line - Write a function that draws a straight line in the terminal.
+* @n: Integer amount of _
 */
-
-void print_line(int n);
-
+void print_line(int n)
 {
-	int i;
+	char c;
 
-	for (i = 0; i < n; i++)
-	{
-		_putchar(95);
-	}
+	for (c = 0; c < n; c++)
+		_putchar('_');
 	_putchar('\n');
 }
