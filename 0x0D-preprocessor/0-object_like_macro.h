@@ -1,6 +1,3 @@
-#ifndef HEADER_FILE 
-#define  HEADER_FILE 
-
+#ifndef SIZE
 #define SIZE 1024
-
 #endif
