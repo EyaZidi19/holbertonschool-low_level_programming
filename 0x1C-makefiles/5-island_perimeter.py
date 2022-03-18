@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+func to return the perimeter
+"""
+
+
 def island_perimeter(grid):
     """
     fun to Calculate the perimeter of an island that is surrounded by water
